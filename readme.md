@@ -20,9 +20,9 @@ Once DHHS publishes the new file around 11 a.m., we can process the data and upd
 
 ## Data
 Below are the time-series files starting with the first date of capture on May 1. We'll eventually start combining these into a single file to show growth over time.
- - May 1 |  CSV file (geojson files not captured)
- - May 2 |  full geoJSON file | reduced geoJSON file | CSV file
- - May 3 |  full geoJSON file | reduced geoJSON file | CSV file
- - May 4 |  full geoJSON file | reduced geoJSON file | CSV file
- - May 5 |  full geoJSON file | reduced geoJSON file | CSV file
- - May 6 |  full geoJSON file | reduced geoJSON file | CSV file
+ - May 1 | [CSV file](time_series_data/csv/nc_zip0501.csv) (geojson files not captured)
+ - May 2 | [full geoJSON file](time_series_data/full_geojson/nc_zip0502.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0502.json) | [CSV file](time_series_data/csv/nc_zip0502.csv)
+ - May 3 | [full geoJSON file](time_series_data/full_geojson/nc_zip0503.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0503.json) | [CSV file](time_series_data/csv/nc_zip0503.csv)
+ - May 4 | [full geoJSON file](time_series_data/full_geojson/nc_zip0504.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0504.json) | [CSV file](time_series_data/csv/nc_zip0504.csv)
+ - May 5 | [full geoJSON file](time_series_data/full_geojson/nc_zip0505.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0505.json) | [CSV file](time_series_data/csv/nc_zip0505.csv)
+ - May 6 | [full geoJSON file](time_series_data/full_geojson/nc_zip0506.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0506.json) | [CSV file](time_series_data/csv/nc_zip0506.csv)
