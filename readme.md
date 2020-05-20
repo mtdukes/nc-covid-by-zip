@@ -1,4 +1,3 @@
-
 # NC COVID-19 zip code data
 
 This is a running repository for data captured daily by reporters from WRAL News via the [N.C. Department of Health and Human Services' zip code-level map](https://www.ncdhhs.gov/divisions/public-health/covid19/covid-19-nc-case-count#zip-code-map) of COVID-19 cases and deaths.
@@ -17,6 +16,17 @@ After the geoJSON file is captured, we can upload it to [MapShaper](https://maps
 We're also using [QGIS software](https://qgis.org/en/site/) to export the file in CSV format.
 
 Once DHHS publishes the new file around 11 a.m., we can process the data and update [our own map](https://www.wral.com/coronavirus/nc-coronavirus-cases-maps-graphs-live-updates/19010016/) accordingly.
+
+**5/20 UPDATE:** DHHS changed its [data dashboard](https://covid19.ncdhhs.gov/dashboard) on May 20 and no longer appears to be updating the data in the shapefile layer. I'm checking with the agency on whether this will change in the future. But in the meantime, the process takes a little more time.
+
+[Tableau](https://www.tableau.com/), the platform DHHS is using to visualize its data, is not set up to allow direct downloads in a structured format, but you can download ZIP code data as a PDF. We're then using [Tabula PDF](https://tabula.technology/) to convert this PDF to a spreadsheet and matching that spreadsheet with previous ZIP code data (population count, place name, etc.) to keep the formatting consistent with past versions of the data.
+
+The PDF produced by the Tableau download omits ZIP codes where:
+
+ 1. the population is less than 500 AND case count is less than 5
+ 2. the case count is zero.
+
+All 779 N.C. zip codes, including zero case count values, **are** included in the post-May 20 data below. Case counts are blank where the population is less than 500 and case count less than 5.
 
 ## Data
 Below are the time-series files starting with the first date of capture on May 1. We'll eventually start combining these into a single file to show growth over time.
@@ -39,3 +49,4 @@ Below are the time-series files starting with the first date of capture on May 1
  - May 17 | [full geoJSON file](time_series_data/full_geojson/nc_zip0517.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0517.json) | [CSV file](time_series_data/csv/nc_zip0517.csv)
  - May 18 | [full geoJSON file](time_series_data/full_geojson/nc_zip0518.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0518.json) | [CSV file](time_series_data/csv/nc_zip0518.csv)
  - May 19 | [full geoJSON file](time_series_data/full_geojson/nc_zip0519.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0519.json) | [CSV file](time_series_data/csv/nc_zip0519.csv)
+ - May 20 | [CSV file](time_series_data/csv/nc_zip0519.csv) (see note above)
