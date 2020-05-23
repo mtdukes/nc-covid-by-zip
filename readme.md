@@ -1,3 +1,4 @@
+
 # NC COVID-19 zip code data
 
 This is a running repository for data captured daily by reporters from WRAL News via the [N.C. Department of Health and Human Services' zip code-level map](https://www.ncdhhs.gov/divisions/public-health/covid19/covid-19-nc-case-count#zip-code-map) of COVID-19 cases and deaths.
@@ -17,7 +18,7 @@ We're also using [QGIS software](https://qgis.org/en/site/) to export the file i
 
 Once DHHS publishes the new file around 11 a.m., we can process the data and update [our own map](https://www.wral.com/coronavirus/nc-coronavirus-cases-maps-graphs-live-updates/19010016/) accordingly.
 
-**5/20 UPDATE:** DHHS changed its [data dashboard](https://covid19.ncdhhs.gov/dashboard) on May 20 and no longer appears to be updating the data in the shapefile layer. I'm checking with the agency on whether this will change in the future. But in the meantime, the process takes a little more time.
+**5/20 UPDATE:** DHHS changed its [data dashboard](https://covid19.ncdhhs.gov/dashboard) on May 20 ~~and no longer appears to be updating the data in the shapefile layer. I'm checking with the agency on whether this will change in the future~~. But in the meantime, the process takes a little more time.
 
 [Tableau](https://www.tableau.com/), the platform DHHS is using to visualize its data, is not set up to allow direct downloads in a structured format, but you can download ZIP code data as a PDF. We're then using [Tabula PDF](https://tabula.technology/) to convert this PDF to a spreadsheet and matching that spreadsheet with previous ZIP code data (population count, place name, etc.) to keep the formatting consistent with past versions of the data.
 
@@ -28,9 +29,13 @@ The PDF produced by the Tableau download omits ZIP codes where:
 
 All 779 N.C. zip codes, including zero case count values, **are** included in the post-May 20 data below. Case counts are blank where the population is less than 500 and case count less than 5.
 
+**5/23 UPDATE:** Correcting the information above, N.C. DHHS **is** still updating [its shapefile through ArcGIS](https://nc.maps.arcgis.com/home/item.html?id=52f127a0767149ec984e91fcc06b06cb#overview). To stay consistent, I will continue to use that data in our map and provide it here (aside from the several days I missed when I was trying to gather info from the state about its plans for the data going forward, which I will try to track down and backfill).
+
+The state considers the data on its new Tableau dashboard to be the most up-to-date zip code information. But the shapefiles used by that platform are slightly different than those used in the ArcGIS platform (ZIP codes [are not standardized shapes](https://carto.com/blog/zip-codes-spatial-analysis/), per se, and change often). Because both platforms provide some level of data cleaning/geocoding to place addresses in the appropriate zip codes when aggregating cases and deaths, numbers on the state's new dashboard may not align 100% with the ArcGIS data used for WRAL's map.
+
 ## Data
 Below are the time-series files starting with the first date of capture on May 1. We'll eventually start combining these into a single file to show growth over time.
- - May 1 | [CSV file](time_series_data/csv/nc_zip0501.csv) (geojson files not captured)
+ - May 1 | [CSV file](time_series_data/csv/nc_zip0501.csv) *(geojson files not captured)*
  - May 2 | [full geoJSON file](time_series_data/full_geojson/nc_zip0502.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0502.json) | [CSV file](time_series_data/csv/nc_zip0502.csv)
  - May 3 | [full geoJSON file](time_series_data/full_geojson/nc_zip0503.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0503.json) | [CSV file](time_series_data/csv/nc_zip0503.csv)
  - May 4 | [full geoJSON file](time_series_data/full_geojson/nc_zip0504.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0504.json) | [CSV file](time_series_data/csv/nc_zip0504.csv)
@@ -49,4 +54,7 @@ Below are the time-series files starting with the first date of capture on May 1
  - May 17 | [full geoJSON file](time_series_data/full_geojson/nc_zip0517.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0517.json) | [CSV file](time_series_data/csv/nc_zip0517.csv)
  - May 18 | [full geoJSON file](time_series_data/full_geojson/nc_zip0518.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0518.json) | [CSV file](time_series_data/csv/nc_zip0518.csv)
  - May 19 | [full geoJSON file](time_series_data/full_geojson/nc_zip0519.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0519.json) | [CSV file](time_series_data/csv/nc_zip0519.csv)
- - May 20 | [CSV file](time_series_data/csv/nc_zip0520.csv) (see note above)
+ - May 20 | [CSV file](time_series_data/csv/nc_zip0520.csv) *(see note above)*
+ - May 21 | *(data pending)*
+ - May 22 | *(data pending)*
+ - May 23 | [full geoJSON file](time_series_data/full_geojson/nc_zip0523.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0523.json) | [CSV file](time_series_data/csv/nc_zip0523.csv)
