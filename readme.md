@@ -58,4 +58,5 @@ Below are the time-series files starting with the first date of capture on May 1
  - May 21 | *(data pending)*
  - May 22 | *(data pending)*
  - May 23 | [full geoJSON file](time_series_data/full_geojson/nc_zip0523.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0523.json) | [CSV file](time_series_data/csv/nc_zip0523.csv)
-  - May 24 | [full geoJSON file](time_series_data/full_geojson/nc_zip0524.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0524.json) | [CSV file](time_series_data/csv/nc_zip0524.csv)
+ - May 24 | [full geoJSON file](time_series_data/full_geojson/nc_zip0524.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0524.json) | [CSV file](time_series_data/csv/nc_zip0524.csv)
+ - May 25 | [full geoJSON file](time_series_data/full_geojson/nc_zip0525.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0525.json) | [CSV file](time_series_data/csv/nc_zip0525.csv)
