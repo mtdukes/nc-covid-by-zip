@@ -70,3 +70,4 @@ Below are the time-series files starting with the first date of capture on May 1
  - June 2 | [full geoJSON file](time_series_data/full_geojson/nc_zip0602.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0602.json) | [CSV file](time_series_data/csv/nc_zip0602.csv)
  - June 3 | [full geoJSON file](time_series_data/full_geojson/nc_zip0603.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0603.json) | [CSV file](time_series_data/csv/nc_zip0603.csv)
  - June 4 | [full geoJSON file](time_series_data/full_geojson/nc_zip0604.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0604.json) | [CSV file](time_series_data/csv/nc_zip0604.csv)
+ - June 5 | [full geoJSON file](time_series_data/full_geojson/nc_zip0605.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0605.json) | [CSV file](time_series_data/csv/nc_zip0605.csv)
