@@ -146,3 +146,4 @@ Below are the time-series files starting with the first date of capture on May 1
  - Aug. 17 | [full geoJSON file](time_series_data/full_geojson/nc_zip0817.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0817.json) | [CSV file](time_series_data/csv/nc_zip0817.csv)
  - Aug. 18 | [full geoJSON file](time_series_data/full_geojson/nc_zip0818.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0818.json) | [CSV file](time_series_data/csv/nc_zip0818.csv)
  - Aug. 19 | [full geoJSON file](time_series_data/full_geojson/nc_zip0819.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0819.json) | [CSV file](time_series_data/csv/nc_zip0819.csv)
+ - Aug. 20 | [full geoJSON file](time_series_data/full_geojson/nc_zip0820.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0820.json) | [CSV file](time_series_data/csv/nc_zip0820.csv)
