@@ -37,9 +37,9 @@ This correction impacted the following metrics and trend lines on WRAL's data da
  - 7-day rolling average of reported new cases
  - 7-day rolling average of tests reported positive
 
-For a detailed breakdown of the changes, download a comparison of data captured by WRAL from Aug. 1 to Sept. 5 and corrected data published by DHHS as of Sept. 5.
+For a detailed breakdown of the changes, [download a comparison of data](https://github.com/mtdukes/nc-covid-by-zip/blob/master/misc_corrected_data/data/corrections_20200905.csv) captured by WRAL from Aug. 1 to Sept. 5 and corrected data published by DHHS as of Sept. 5.
 
-### Data field layout for corrections_20200905.csv
+### Data field layout for [corrections_20200905.csv](https://github.com/mtdukes/nc-covid-by-zip/blob/master/misc_corrected_data/data/corrections_20200905.csv)
 
 **date** Date of reported cases, in MM/DD/YYYY format
 
