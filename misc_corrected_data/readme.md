@@ -7,7 +7,7 @@
 
 During the week of Aug. 30, the N.C. Department of Health and Human Services made corrections to its reported case counts for several days in August after LabCorp reported a delay of nearly 1,000 positive test results.
 
-DHHS posted the following explanation on its data dashboard Sept. 3:
+DHHS posted the following explanation on its data dashboard ~~Sept. 3~~ Aug. 31 *(correcting date disclosure was first posted)*:
 
 > On August 29, 2020, LabCorp submitted approximately 1,163 positive
 > tests results for which the majority were completed during the first
