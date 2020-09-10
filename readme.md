@@ -167,3 +167,4 @@ Below are the time-series files starting with the first date of capture on May 1
  - Sept. 7 | [full geoJSON file](time_series_data/full_geojson/nc_zip0907.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0907.json) | [CSV file](time_series_data/csv/nc_zip0907.csv)
  - Sept. 8 | [full geoJSON file](time_series_data/full_geojson/nc_zip0908.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0908.json) | [CSV file](time_series_data/csv/nc_zip0908.csv)
  - Sept. 9 | [full geoJSON file](time_series_data/full_geojson/nc_zip0909.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0909.json) | [CSV file](time_series_data/csv/nc_zip0909.csv)
+ - Sept. 10 | [full geoJSON file](time_series_data/full_geojson/nc_zip0910.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0910.json) | [CSV file](time_series_data/csv/nc_zip0910.csv)
