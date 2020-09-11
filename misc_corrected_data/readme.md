@@ -88,3 +88,27 @@ For a detailed breakdown of these changes, download a [comparison of data](https
 **cumulative_deaths_daily** The cumulative total of COVID-19 deaths published by N.C. DHHS through its statewide dashboard.
 
 **cumulative_differences_deaths** The difference between the cumulative number of COVID-19 deaths from DHHS (reported around noon each day) and the cumulative total of COVID-19 deaths tracked by WRAL throughout the given date.
+
+## Sept. 11, 2020 - Revised methodology
+
+On Sept. 11, WRAL rolled out changes to the county-level chart showing cumulative COVID-19 cases and deaths due to COVID-19.
+
+### Removed metrics
+
+Previous versions of this map included data on **percentage of the population with cases** and the **number of cases in long-term care homes**, both of which were removed in the updated version.
+
+The percentage of the population with confirmed cases has remained too small to provide much value, so we removed it to simplify the graphic and focus on the remaining metrics, like the rate per 100,000 of each county's population. 
+
+Although the state does track ***active*** outbreaks and clusters in long-term care homes by county, it doesn't detail the specific number of cumulative cases by county in its public dashboard. And even county-level data on cases in these congregate facilities can lag, making it hard to compare with numbers updated for each county daily. We removed this metric because it's frequently inaccurate and only occassionally updated.
+
+### Added metrics
+
+The tooltip overlay now includes a calculation for deaths per 100,000 population.
+
+### Changing how we track cases and deaths
+
+WRAL also changed its methodology for tracking and capturing cumulative cases and deaths on the county level. In the initial months of the pandemic, the WRAL reporting team captured real-time data by monitoring individual case counts on both the state level and for each of North Carolina's 100 counties. But as the cumulative totals grew, the variation between state officials' daily updates in the morning or early afternoon and the tally gathered from each county throughout the day became less and less significant. The manual process of comparing and updating each counties changes also delayed daily updates on the map.
+
+WRAL introduced a semi-automated process of downloading county-level data [from the N.C. DHHS dashboard](https://covid19.ncdhhs.gov/dashboard/about-data) from the agency's daily publication of new COVID-19 figures, and we use that data to power the revised county-level map.
+
+We're also independently calculating per population statistics (based on per 100,000 of each county's population) using the July 1, 2019, population estimates from the [U.S. Census Population and Housing Unit Estimates](https://www.census.gov/programs-surveys/popest.html). This might mean slightly different numbers than the state uses for its own calculation (since they're using different population estimates).
