@@ -54,3 +54,37 @@ For a detailed breakdown of the changes, [download a comparison of data](https:/
 **reported_cases_difference** The difference calculated between reported daily cases corrected by DHHS and uncorrected reported daily cases collected by WRAL.
 
 **running_total_difference** The difference calculated between total cases corrected by DHHS and uncorrected total cases collected by WRAL.
+
+## Sept. 10, 2020 - Redesign, revised methodology
+
+On the evening of Sept. 10, WRAL rolled out changes to the chart showing cumulative COVID-19 cases, cumulative COVID-19 deaths and a rolling average of hospitalizations due to COVID-19.
+
+### Redesign of hospitalizations
+
+Because the hospitalization data is a rolling average and not a cumulative total, we separated these figures into their own distinct graph for clarity.
+
+### Redesign of cases/deaths
+
+The large number of cases relative to deaths made the latter hard to see on a combined, so we also separated these metrics into seperate charts, allowing users to swap between them and view each on a variable scale.
+
+### Changing how we track cases and deaths
+
+WRAL also changed its methodology for tracking and capturing these cumulative cases and deaths. In the initial months of the pandemic, the WRAL reporting team captured real-time data by monitoring individual case counts on both the state level and for each of North Carolina's 100 counties. But as the cumulative totals grew, the variation between state officials' daily updates in the morning or early afternoon and the tally gathered from each county throughout the day became less and less significant. We've now reverted to using total case counts published each day by the N.C. Department of Health and Human Services, dating back to when the agency began releasing statewide figures on March 13.
+
+For a detailed breakdown of these changes, download a [comparison of data](https://github.com/mtdukes/nc-covid-by-zip/blob/master/misc_corrected_data/data/corrections_20200910.csv) captured by WRAL from the state/county level tracking compared to WRAL's data captured from the N.C. DHHS figures published since March 13 (Note that because the real-time numbers were being updated throughout the day, they're almost always higher than the figures published earlier each morning by NC DHHS that are now used for the graphs).
+
+### Data field layout for [corrections_20200910.csv](https://github.com/mtdukes/nc-covid-by-zip/blob/master/misc_corrected_data/data/corrections_20200910.csv)
+
+***date*** Date of data capture for either cumulative or real-time cases/deaths
+
+***cumulative_cases_realtime*** The sum of new reported COVID-19 cases initially gathered by WRAL and updated continuously throughout the day from state and county health departments.
+
+***cumulative_cases_daily*** The cumulative total of lab-confirmed COVID-19 cases published by N.C. DHHS through its statewide dashboard.
+
+***cumulative_cases_difference*** The difference between the cumulative number of COVID-19 cases from DHHS (reported around noon each day) and the cumulative total of COVID-19 cases tracked by WRAL throughout the given date.
+
+***cumulative_deaths_realtime*** The sum of new reported COVID-19 deaths initially gathered by WRAL and updated continuously throughout the day from state and county health departments.
+
+***cumulative_deaths_daily*** The cumulative total of COVID-19 deaths published by N.C. DHHS through its statewide dashboard.
+
+***cumulative_differences_deaths*** The difference between the cumulative number of COVID-19 deaths from DHHS (reported around noon each day) and the cumulative total of COVID-19 deaths tracked by WRAL throughout the given date.
