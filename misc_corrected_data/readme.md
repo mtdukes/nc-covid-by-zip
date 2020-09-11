@@ -75,16 +75,16 @@ For a detailed breakdown of these changes, download a [comparison of data](https
 
 ### Data field layout for [corrections_20200910.csv](https://github.com/mtdukes/nc-covid-by-zip/blob/master/misc_corrected_data/data/corrections_20200910.csv)
 
-***date*** Date of data capture for either cumulative or real-time cases/deaths
+**date** Date of data capture for either cumulative or real-time cases/deaths
 
-***cumulative_cases_realtime*** The sum of new reported COVID-19 cases initially gathered by WRAL and updated continuously throughout the day from state and county health departments.
+**cumulative_cases_realtime** The sum of new reported COVID-19 cases initially gathered by WRAL and updated continuously throughout the day from state and county health departments.
 
-***cumulative_cases_daily*** The cumulative total of lab-confirmed COVID-19 cases published by N.C. DHHS through its statewide dashboard.
+**cumulative_cases_daily** The cumulative total of lab-confirmed COVID-19 cases published by N.C. DHHS through its statewide dashboard.
 
-***cumulative_cases_difference*** The difference between the cumulative number of COVID-19 cases from DHHS (reported around noon each day) and the cumulative total of COVID-19 cases tracked by WRAL throughout the given date.
+**cumulative_cases_difference** The difference between the cumulative number of COVID-19 cases from DHHS (reported around noon each day) and the cumulative total of COVID-19 cases tracked by WRAL throughout the given date.
 
-***cumulative_deaths_realtime*** The sum of new reported COVID-19 deaths initially gathered by WRAL and updated continuously throughout the day from state and county health departments.
+**cumulative_deaths_realtime** The sum of new reported COVID-19 deaths initially gathered by WRAL and updated continuously throughout the day from state and county health departments.
 
-***cumulative_deaths_daily*** The cumulative total of COVID-19 deaths published by N.C. DHHS through its statewide dashboard.
+**cumulative_deaths_daily** The cumulative total of COVID-19 deaths published by N.C. DHHS through its statewide dashboard.
 
-***cumulative_differences_deaths*** The difference between the cumulative number of COVID-19 deaths from DHHS (reported around noon each day) and the cumulative total of COVID-19 deaths tracked by WRAL throughout the given date.
+**cumulative_differences_deaths** The difference between the cumulative number of COVID-19 deaths from DHHS (reported around noon each day) and the cumulative total of COVID-19 deaths tracked by WRAL throughout the given date.
