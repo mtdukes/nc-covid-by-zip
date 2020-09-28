@@ -40,15 +40,15 @@ This correction impacted the following metrics and trend lines on WRAL’s data 
 
 In addition, the data collected by Johns Hopkins University has also been impacted, resulting in changes to the "New COVID-19 cases by county" time series graph on WRAL's dashboard powered by that data. The Johns Hopkins data did not backfill the new cases from antigen testing, so the addition of antigen test-identified cases appears as a small spike in some counties starting on Sept. 25.
 
-In total, the addition of antigen data added 4,449 cases, 23 deaths, and 38,678 tests to WRAL's dashboard through Sept. 24. For a detailed breakdown of the changes, download a comparison of data for the following metrics captured by WRAL and corrected data published by DHHS as of Sept. 27:
+In total, the addition of antigen data added 4,449 cases and 23 deaths to WRAL's dashboard through Sept. 24. For a detailed breakdown of the changes, download a comparison of data for the following metrics captured by WRAL and corrected data published by DHHS as of Sept. 27:
 
 - [Reported and total cases (from May 20 to Sept. 24)](https://github.com/mtdukes/nc-covid-by-zip/blob/master/misc_corrected_data/data/corrections_20200927_cases.csv)
 - [Reported and total deaths (from Sept. 20, to Sept. 24)](https://github.com/mtdukes/nc-covid-by-zip/blob/master/misc_corrected_data/data/corrections_20200927_deaths.csv)
 	- DHHS added COVID-19-related deaths identified via antigen tests to the totals starting on Sept. 23. 
 - [Testing trends (from Aug. 1 to Sept. 24)](https://github.com/mtdukes/nc-covid-by-zip/blob/master/misc_corrected_data/data/corrections_20200927_testing.csv) 
-	- WRAL tracks testing based on the cumulative number of tests reported each day by DHHS. Data published by DHHS does NOT track testing this way, instead tracking tests by the date they were performed. The number of tests for each day in the DHHS data can change over time as new tests are reported to the agency. This number has been in flux since Aug. 10. We've asked DHHS why and will update this documentation when we receive a response.
+	- WRAL previously tracked testing based on the cumulative number of tests reported each day by DHHS. Data published by DHHS does NOT track testing this way, instead tracking tests by the date they were performed. The number of tests for each day in the DHHS data can change over time as new tests are reported to the agency. Because there is no other way to account for the addition of antigen testing using daily reported cumulative testing, WRAL used DHHS figures from March 17 to Sept. 28 to recalculate all cumulative testing numbers. This had the effect of shifting both the new reported tests and the positivity rate by a day along the timeline.
 - [Positivity rates (from May 20 to Sept. 24)](https://github.com/mtdukes/nc-covid-by-zip/blob/master/misc_corrected_data/data/corrections_20200927_positivity.csv)
-	- WRAL calculates its own positivity rates based on the previous seven days of new reported cases and new tests. With the corrections to both the number of cases and tests, this has been revised both up (a maximum of 0.80 percentage points) and down (a minimum of 0.96 percentage points).
+	- WRAL calculates its own positivity rates based on the previous seven days of new reported cases and new tests. With the corrections to both the number of cases and tests, this has been revised both up and down as a function of both the antigen cases/tests and the altered methodology for tracking cumulative tests (see item above).
 
 ### Data field layout for [corrections_20200927_cases.csv](https://github.com/mtdukes/nc-covid-by-zip/blob/master/misc_corrected_data/data/corrections_20200927_cases.csv)
 
