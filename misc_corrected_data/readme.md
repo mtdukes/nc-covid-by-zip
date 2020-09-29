@@ -2,6 +2,10 @@
 
 [WRAL's dashboard of COVID-19 statistics and charts](https://www.wral.com/coronavirus/north-carolina-coronavirus-cases-maps-graphs-live-updates/19010016/) has evolved since its initial launch in the early stage of the pandemic. We'll track changes to our metrics and tracking methodology, and note any corrections to our data here starting on Sept. 5.
 
+## Sept. 29, 2020 - Removing congregate settings table
+
+On Sept. 29, WRAL News removed the "COVID-19 outbreaks in NC long-term facilities" table from the dashboard. The N.C. Department of Health and Human Services [continues to publish this data twice weekly in PDF format](https://covid19.ncdhhs.gov/dashboard/outbreaks-and-clusters), but it has become too time-consuming to convert the data into the appropriate format for display on the dashboard.
+
 ## Sept. 28, 2020 - Adding antigen cases/deaths/tests
 
 On Sept. 25, the N.C. Department of Health and Human Services announced it was releasing data on both molecular (PCR) and antigen testing in North Carolina. Consistent with [requirements from the Centers for Disease Control and Prevention](https://wwwn.cdc.gov/nndss/conditions/coronavirus-disease-2019-covid-19/case-definition/2020/08/05/), DHHS as of Sept. 25 lists those results separately. Prior to that date, only PCR tests had been included in the total number of tests, cases, deaths etc. Per a DHHS press release:
