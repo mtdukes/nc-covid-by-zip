@@ -1,7 +1,8 @@
-
 # NC COVID-19 zip code data
 
 This is a running repository for data captured daily by reporters from WRAL News via the [N.C. Department of Health and Human Services' zip code-level map](https://www.ncdhhs.gov/divisions/public-health/covid19/covid-19-nc-case-count#zip-code-map) of COVID-19 cases and deaths.
+
+**NOTE: After Oct. 2, this repo will no longer be updated.**
 
 ## Methodology
 
@@ -187,3 +188,4 @@ Below are the time-series files starting with the first date of capture on May 1
  - Sept. 27 | [full geoJSON file](time_series_data/full_geojson/nc_zip0927.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0927.json) | [CSV file](time_series_data/csv/nc_zip0927.csv)
  - Sept. 28 | [full geoJSON file](time_series_data/full_geojson/nc_zip0928.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0928.json) | [CSV file](time_series_data/csv/nc_zip0928.csv)
  - Sept. 29 | [full geoJSON file](time_series_data/full_geojson/nc_zip0929.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0929.json) | [CSV file](time_series_data/csv/nc_zip0929.csv)
+ - Sept. 30 | [full geoJSON file](time_series_data/full_geojson/nc_zip0930.geojson) | [reduced geoJSON file](time_series_data/reduced_geojson/nc_zip0930.json) | [CSV file](time_series_data/csv/nc_zip0930.csv)
