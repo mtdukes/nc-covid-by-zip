@@ -2,6 +2,10 @@
 
 [WRAL's dashboard of COVID-19 statistics and charts](https://www.wral.com/coronavirus/north-carolina-coronavirus-cases-maps-graphs-live-updates/19010016/) has evolved since its initial launch in the early stage of the pandemic. We'll track changes to our metrics and tracking methodology, and note any corrections to our data here starting on Sept. 5.
 
+## Oct. 1, 2020 - Retiring the unempoyment table
+
+On Oct. 1, 2020, WRAL News noted that the "New unemployment claims in NC" table in its dashboard will no longer be updated. The data, which requires manual collection from the state Division of Employment Security, was updated through July 6.
+
 ## Sept. 29, 2020 - Removing congregate settings table
 
 On Sept. 29, WRAL News removed the "COVID-19 outbreaks in NC long-term facilities" table from the dashboard. The N.C. Department of Health and Human Services [continues to publish this data twice weekly in PDF format](https://covid19.ncdhhs.gov/dashboard/outbreaks-and-clusters), but it has become too time-consuming to convert the data into the appropriate format for display on the dashboard.
